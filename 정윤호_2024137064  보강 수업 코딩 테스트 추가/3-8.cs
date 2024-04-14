@@ -32,6 +32,7 @@ class MainClass
                 default:
                     Console.WriteLine("잘못 입력 하였습니다.");
                     break;
+                break;
             }
            
         }
