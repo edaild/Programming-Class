@@ -7,8 +7,12 @@ public class test : MonoBehaviour
 
     void Start()
     {
-        string input = "Potato Tomato";
-        Debug.Log(input.ToUpper());
-        Debug.Log(input.ToLower());
+        for (int j = 1; j < 10; j++)
+        {
+            if(j % 2 == 1)
+            {
+                Debug.Log(j);
+            }
+        }
     }
 }
